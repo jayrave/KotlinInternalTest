@@ -13,6 +13,12 @@ android {
         versionName "1.0"
     }
 
+    productFlavors {
+        prod {
+            minSdkVersion 14
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
